@@ -20,7 +20,6 @@ public class MyProgram
         
         do {
             
-            
             //lets user guess
             String guess = in.nextLine();
             
@@ -30,10 +29,11 @@ public class MyProgram
             //adds to chances
             chances ++;
             
-        } while (chances < 5); //runs this while chances are less than 5 -- basically a reverse for loop
+        } while (chances < 5); //runs this while chances are less than 5
         
     }
-    
+
+    // im not commenting this dont ask
     public static void check(String word, String guess, int chances) {
         
         word = word.toUpperCase();
